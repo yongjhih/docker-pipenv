@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  pipenv:
+    image: yongjhih/pipenv:latest
+    container_name: pipenv
+    volumes:
+      - ./:/app
